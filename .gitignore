@@ -1,0 +1,13 @@
+# Local signing material and account/session data must never be committed.
+.signing/
+*.p12
+*.jks
+*.keystore
+password.txt
+.env
+cookies*
+qa/
+.toolchain/
+build/
+.venv/
+__pycache__/
